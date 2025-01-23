@@ -21,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/wlog.git"
+    "url": "git+https://github.com/akcware/wlog.git"
   },
   "devDependencies": {
     "@types/bun": "latest"
