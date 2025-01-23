@@ -1,0 +1,32 @@
+{
+  "name": "wlog",
+  "version": "1.0.0",
+  "description": "A logging utility for JavaScript/TypeScript applications",
+  "main": "dist/wlog.js",
+  "module": "dist/wlog.mjs",
+  "types": "dist/wlog.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./wlog.ts --outdir ./dist",
+    "test": "bun test",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "logging",
+    "logger",
+    "debug",
+    "typescript"
+  ],
+  "author": "Askin Kadir Cekim",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/wlog.git"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
